@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>cooks</servlet-name>
+        <servlet-class>cooks</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BioData</servlet-name>
+        <servlet-class>BioData</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>JDBC_select</servlet-name>
+        <servlet-class>JDBC_select</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cooks</servlet-name>
+        <url-pattern>/cooks</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BioData</servlet-name>
+        <url-pattern>/BioData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>JDBC_select</servlet-name>
+        <url-pattern>/JDBC_select</url-pattern>
+    </servlet-mapping>
+</web-app>
